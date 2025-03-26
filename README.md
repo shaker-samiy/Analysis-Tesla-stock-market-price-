@@ -50,9 +50,14 @@ volume bigint
 );
   
 ## Data Exploration and analysis:
-  1- List the  dates where the close price was greater than the average of close price.
+  1- List the  dates where the close price was greater than the average of close price
+  
   2- List the dates where the volume was greater than the average
+  
   3- list the dates for top 10 close prices
+
+  4- list the dates for least 10 close pricess
+
 
 
   
