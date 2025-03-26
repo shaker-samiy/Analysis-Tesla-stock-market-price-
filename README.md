@@ -34,7 +34,7 @@ data = yf.download("TSLA", start="2010-06-26", end="2025-03-23")
 
 4- Save to CSV
 data.to_csv("TSLA_historical.csv")
-## Data Transforation and Data Loading ( using SQL ):
+## Data Transformation and Data Loading ( using SQL ):
  1- creating database
 CREATE DATABASE tsla;
 2- Create table in database 
