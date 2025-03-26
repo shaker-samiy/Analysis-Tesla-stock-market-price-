@@ -1,4 +1,4 @@
-# A complete analysis project using SQL (PostgreSQL) for The American company Tesla
+# A complete analysis project using SQL (PostgreSQL) Tesla company
 ## Project Overview:
   #### In this project we aim to analysis the prices of Tesla, to check is the year 2025 is best yoear to invest in Tesla, or the company towards the edge.
 
