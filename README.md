@@ -36,10 +36,13 @@ data = yf.download("TSLA", start="2010-06-26", end="2025-03-23")
 data.to_csv("TSLA_historical.csv")
 ## Data Transformation and Data Loading ( using SQL ):
  1- creating database
-CREATE DATABASE tsla;
-2- Create table in database 
+ 
+  - CREATE DATABASE tsla;
+  - 
+2- Create table in database
+
 in query tool:
-CREATE TABLE Tsla_prices
+ - CREATE TABLE Tsla_prices
 (
 stock_date date,
 close_price numeric(20,6),
