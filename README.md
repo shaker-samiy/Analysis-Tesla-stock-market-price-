@@ -1,6 +1,6 @@
 # A complete analysis project using SQL (PostgreSQL) Tesla company
 ## Project Overview:
-  #### In this project we aim to analysis the prices of Tesla, to check is the year 2025 is best yoear to invest in Tesla, or the company towards the edge.
+  #### In this project we aim to analysis the prices of Tesla, to check is the year 2025 is best year to invest in Tesla, or the company towards the edge.
 
 ### Data source:
     The data comes from yahoo finace from 2010 to 2025
