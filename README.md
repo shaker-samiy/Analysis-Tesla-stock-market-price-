@@ -104,5 +104,19 @@ ORDER BY  MAX(close_price) DESC
 LIMIT 10;
 ```
 
+5- Comare between the volume at 2011 and at 2024
+```sql
+SELECT * FROM tsla_prices;
+SELECT sum(volume)/(12*30) AS volume_per_day
+FROM tsla_prices
+WHERE CAST(stock_date AS TEXT) LIKE '2011-%-%';
+SELECT * FROM tsla_prices;
+SELECT sum(volume)/(12*30) AS volume_per_day
+FROM tsla_prices
+WHERE CAST(stock_date AS TEXT) LIKE '2024-%-%';```
 
+```sql
+
+
+```
   
