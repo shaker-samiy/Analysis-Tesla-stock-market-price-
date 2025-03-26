@@ -22,8 +22,8 @@
 ### Final Story: 
 ## Data Extraction ( Using Python ):
 1- installing yfinance package for yahoo finance website
-in jupyter notebool
-!pip install yfinance;
+in jupyter notebook
+    - !pip install yfinance
 
 2- download data of tesla as csv from yahoo finance
 
